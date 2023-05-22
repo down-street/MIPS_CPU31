@@ -1,13 +1,14 @@
 ### R型指令
 
 ADD
-
+![avator](add.png)
 PC$\rightarrow$IMEM
 PC+4$\rightarrow$NPC
 NPC$\rightarrow$PC
 
 Rs$\rightarrow$A,Rt$\rightarrow$B
 RES$\rightarrow$Rd
+
 
 ADDU
 PC$\rightarrow$IMEM
