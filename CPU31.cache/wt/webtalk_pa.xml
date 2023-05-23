@@ -3,7 +3,7 @@
 <!--The data in this file is primarily intended for consumption by Xilinx tools.
 The structure and the elements are likely to change over the next few releases.
 This means code written to parse this file will need to be revisited each subsequent release.-->
-<application name="pa" timeStamp="Wed May 17 21:35:47 2023">
+<application name="pa" timeStamp="Tue May 23 13:19:27 2023">
 <section name="Project Information" visible="false">
 <property name="ProjectID" value="a71255eb8b734543890edfead01312ac" type="ProjectID"/>
 <property name="ProjectIteration" value="1" type="ProjectIteration"/>
@@ -17,15 +17,109 @@ This means code written to parse this file will need to be revisited each subseq
 <property name="ImplStrategy" value="Vivado Implementation Defaults" type="ImplStrategy"/>
 </item>
 <item name="Java Command Handlers">
+<property name="AddSources" value="3" type="JavaHandler"/>
 <property name="CoreView" value="2" type="JavaHandler"/>
 <property name="CustomizeCore" value="1" type="JavaHandler"/>
-<property name="NewProject" value="1" type="JavaHandler"/>
+<property name="NewProject" value="2" type="JavaHandler"/>
+<property name="OpenProject" value="1" type="JavaHandler"/>
 <property name="RecustomizeCore" value="1" type="JavaHandler"/>
+<property name="SaveFileProxyHandler" value="1" type="JavaHandler"/>
+</item>
+<item name="Gui Resources Info">
+<property name="ALU.v, 168, 452" value="1" type="GuiResourceData"/>
+<property name="ALU.v, 172, 433" value="1" type="GuiResourceData"/>
+<property name="ALU.v, 180, 457" value="1" type="GuiResourceData"/>
+<property name="ALU.v, 330, 562" value="1" type="GuiResourceData"/>
+<property name="ALU.v, 383, 333" value="1" type="GuiResourceData"/>
+<property name="ALU.v, 475, 407" value="1" type="GuiResourceData"/>
+<property name="ALU.v, 561, 403" value="1" type="GuiResourceData"/>
+<property name="ALU.v, 561, 403, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="CANCEL, Cancel" value="1" type="GuiResourceData"/>
+<property name="DMEM.v, 114, 708" value="1" type="GuiResourceData"/>
+<property name="DMEM.v, 126, 706" value="1" type="GuiResourceData"/>
+<property name="DMEM.v, 141, 529" value="1" type="GuiResourceData"/>
+<property name="DMEM.v, 150, 657" value="1" type="GuiResourceData"/>
+<property name="DMEM.v, 150, 710" value="1" type="GuiResourceData"/>
+<property name="DMEM.v, 159, 733" value="1" type="GuiResourceData"/>
+<property name="DMEM.v, 170, 690" value="1" type="GuiResourceData"/>
+<property name="DMEM.v, 177, 706" value="1" type="GuiResourceData"/>
+<property name="DMEM.v, 178, 710" value="1" type="GuiResourceData"/>
+<property name="DMEM.v, 179, 747" value="1" type="GuiResourceData"/>
+<property name="DMEM.v, 193, 725" value="1" type="GuiResourceData"/>
+<property name="DMEM.v, 194, 713" value="1" type="GuiResourceData"/>
+<property name="DMEM.v, 196, 710" value="1" type="GuiResourceData"/>
+<property name="DMEM.v, 197, 558" value="1" type="GuiResourceData"/>
+<property name="DMEM.v, 197, 709" value="1" type="GuiResourceData"/>
+<property name="DMEM.v, 199, 716" value="1" type="GuiResourceData"/>
+<property name="DMEM.v, 200, 710" value="1" type="GuiResourceData"/>
+<property name="DMEM.v, 205, 712" value="1" type="GuiResourceData"/>
+<property name="DMEM.v, 210, 707, false, false, false, true, false" value="1" type="GuiResourceData"/>
+<property name="DMEM.v, 226, 513" value="1" type="GuiResourceData"/>
+<property name="DMEM.v, 227, 767" value="1" type="GuiResourceData"/>
+<property name="DMEM.v, 228, 528" value="1" type="GuiResourceData"/>
+<property name="DMEM.v, 228, 708" value="1" type="GuiResourceData"/>
+<property name="DMEM.v, 242, 748" value="1" type="GuiResourceData"/>
+<property name="DMEM.v, 244, 729" value="1" type="GuiResourceData"/>
+<property name="DMEM.v, 245, 733" value="1" type="GuiResourceData"/>
+<property name="DMEM.v, 256, 711" value="1" type="GuiResourceData"/>
+<property name="DMEM.v, 259, 714" value="1" type="GuiResourceData"/>
+<property name="DMEM.v, 274, 548" value="1" type="GuiResourceData"/>
+<property name="DMEM.v, 274, 763" value="1" type="GuiResourceData"/>
+<property name="DMEM.v, 276, 763" value="1" type="GuiResourceData"/>
+<property name="DMEM.v, 278, 543" value="1" type="GuiResourceData"/>
+<property name="DMEM.v, 286, 552" value="1" type="GuiResourceData"/>
+<property name="DMEM.v, 292, 775" value="1" type="GuiResourceData"/>
+<property name="DMEM.v, 293, 789" value="1" type="GuiResourceData"/>
+<property name="DMEM.v, 298, 767" value="1" type="GuiResourceData"/>
+<property name="DMEM.v, 336, 557" value="1" type="GuiResourceData"/>
+<property name="DMEM.v, 337, 720" value="1" type="GuiResourceData"/>
+<property name="DMEM.v, 351, 816" value="1" type="GuiResourceData"/>
+<property name="DMEM.v, 431, 688" value="1" type="GuiResourceData"/>
+<property name="DMEM.v, 445, 494" value="1" type="GuiResourceData"/>
+<property name="DMEM.v, 79, 540" value="1" type="GuiResourceData"/>
+<property name="DMEM.v, 92, 455" value="1" type="GuiResourceData"/>
+<property name="DMEM.v, 92, 468" value="1" type="GuiResourceData"/>
+<property name="FINISH, Finish" value="3" type="GuiResourceData"/>
+<property name="IMEM.v, 105, 535" value="1" type="GuiResourceData"/>
+<property name="IMEM.v, 122, 457" value="1" type="GuiResourceData"/>
+<property name="IMEM.v, 132, 479" value="1" type="GuiResourceData"/>
+<property name="IMEM.v, 161, 453" value="1" type="GuiResourceData"/>
+<property name="IMEM.v, 171, 451" value="1" type="GuiResourceData"/>
+<property name="IMEM.v, 175, 447" value="1" type="GuiResourceData"/>
+<property name="IMEM.v, 175, 447, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="IMEM.v, 209, 557" value="1" type="GuiResourceData"/>
+<property name="IMEM.v, 244, 508" value="1" type="GuiResourceData"/>
+<property name="IMEM.v, 67, 469" value="1" type="GuiResourceData"/>
+<property name="IMEM.v, 87, 496" value="1" type="GuiResourceData"/>
+<property name="IMEM.v, 89, 441" value="1" type="GuiResourceData"/>
+<property name="NEXT, Next " value="3" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, ALU" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, DMEM" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, IMEM.v" value="1" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_ADD_SOURCES, Add Sources..." value="1" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, Hierarchy Update" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, ALU (ALU.v" value="2" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, Coefficient Files], 2" value="2" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, DMEM (DMEM.v" value="2" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, IMEM (IMEM.v" value="3" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources], 0, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources], 0, true, false, false, false, true, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Project Manager, Add Sources], 2, false" value="2" type="GuiResourceData"/>
+<property name="PAResourceEtoH.GettingStartedView_CREATE_NEW_PROJECT, Create New Project" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.GettingStartedView_OPEN_PROJECT, Open Project" value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, Add Files" value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SrcChooserPanel_CREATE_FILE, Create File" value="3" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SrcChooserTable_SRC_CHOOSER_TABLE, Library, 3" value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SrcChooserTable_SRC_CHOOSER_TABLE, VerilogSourceFile_small ; 1 ; IMEM.v ; xil_defaultlib ; Local to Project, 0, xil_defaultlib, 3" value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SrcChooserTable_SRC_CHOOSER_TABLE, xil_defaultlib, 0, Library, 3" value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SrcMenu_IP_HIERARCHY, IP Hierarchy" value="1" type="GuiResourceData"/>
+<property name="RDIResource.BaseDialog_OK, OK" value="6" type="GuiResourceData"/>
+<property name="RDIResource.HJFileChooserHelpers_JUMP_TO_HOME_DIRECTORY, (String" value="1" type="GuiResourceData"/>
 </item>
 <item name="Other">
-<property name="GuiMode" value="2" type="GuiMode"/>
+<property name="GuiMode" value="10" type="GuiMode"/>
 <property name="BatchMode" value="0" type="BatchMode"/>
-<property name="TclMode" value="1" type="TclMode"/>
+<property name="TclMode" value="4" type="TclMode"/>
 </item>
 </section>
 </application>
